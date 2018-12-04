@@ -1,0 +1,142 @@
+body {
+	background: rgb(240,240,240);
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 50px;
+	letter-spacing: 2px;
+	font-family: 'Pacifico', cursive;
+	color: #63686e;
+
+}
+
+h2 {
+	font-family: 'Pacifico', cursive;
+	font-weight: bold;
+	font-size: 27px;
+	color:#1e0411;
+}
+
+h3 {
+	font-family: Inconsolata, monospace; 
+	font-weight: lighter;
+	font-size: 20px	
+}
+h4 {
+	font-family: Dancing Script, monospace;
+	font-size: 30px;
+	color: #771144;
+	text-align: center;
+	letter-spacing: 2px;
+	padding-left: 30px;
+}
+
+a	{
+	text-decoration: none;
+	font-family: Charmonman, cursive;
+	font-size: 20px;
+	color: #951555;
+}
+a:hover {
+	color: white;
+}
+
+
+p {
+	font-family: Inconsolata, monospace; 
+	font-size: 18px;
+}
+
+
+.container {
+	width: 1000px
+	margin: 50px auto;
+	text-align: center;
+}
+
+@media(max-width: 760px){
+	.container{
+		width: 600px;
+		text-align: center;
+	}
+	.card-introduction{
+		width: 600px;
+		text-align: center;
+	}
+	.card-profile{
+		width: 600px;
+		text-align: center;
+	}
+}
+
+
+.card-introduction {
+	background: white;
+	padding: 10px;
+	width: 1000px;
+	height: 700px;
+	margin: 0px auto;
+	border-radius: 74px;
+	box-shadow: 0,10px;
+	box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+	text-align: center;
+}
+
+#book {
+    text-align: center;
+}
+
+.card-profile {
+	background: white;
+	padding: 10px;
+	width: 1000px;
+	height: 120px;
+	margin: 0px auto;
+	border-radius: 74px;
+	box-shadow: 0,10px;
+	box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+	text-align: center;
+}
+
+.card-description{
+	background: white;
+    padding: 30px;
+    border-radius: 74px;
+    box-shadow: 0,10px;
+    box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
+    margin: 0px auto;
+    text-align: center;
+    width: 1000px;
+}
+
+.img-circle {
+border-radius: 80px;
+}
+.btn-site {
+	background-color: #9d8f8f;
+	color:#951555;
+	padding:10px 15px;
+	border-radius: 50px;
+}
+.btn-site:hover{
+	background-color: #771144;
+}
+#list-inline {
+	list-style: none;
+	padding-left:30px;
+}
+#list-inline li{
+	display: inline;
+	padding: 10px;
+}
+#list-inline i{
+	font-size: 50px;
+	color: #771144;
+}
+
+#list-inline i:hover{
+	color: #9d8f8f;
+}
+
+
