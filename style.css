@@ -48,7 +48,11 @@ p {
 	font-size: 18px;
 }
 
-
+.container {
+	width: 1000px;
+	margin: 20px auto;
+	text-align: center; 
+}
 
 
 @media (max-width: 960px) {
@@ -74,27 +78,19 @@ p {
 .card-introduction {
 	background: white;
 	padding: 10px;
-	width: 1000px;
-	height: 700px;
-	margin: 0px auto;
 	border-radius: 74px;
-	box-shadow: 0,10px;
 	box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
 	text-align: center;
 }
 
-#book {
+.book {
     text-align: center;
 }
 
 .card-profile {
 	background: white;
 	padding: 10px;
-	width: 1000px;
-	height: 120px;
-	margin: 0px auto;
 	border-radius: 74px;
-	box-shadow: 0,10px;
 	box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
 	text-align: center;
 }
@@ -103,11 +99,9 @@ p {
 	background: white;
     padding: 30px;
     border-radius: 74px;
-    box-shadow: 0,10px;
     box-shadow: 10px 10px 30px rgba(0,0,0,0.1);
-    margin: 0px auto;
     text-align: center;
-    width: 1000px;
+  
 }
 
 .img-circle {
@@ -119,23 +113,26 @@ border-radius: 80px;
 	padding:10px 15px;
 	border-radius: 50px;
 }
+
 .btn-site:hover{
 	background-color: #771144;
 }
-#list-inline {
+
+.list-inline {
 	list-style: none;
-	padding-left:30px;
 }
-#list-inline li{
+
+.list-inline li{
 	display: inline;
 	padding: 10px;
 }
-#list-inline i{
+.list-inline i{
 	font-size: 50px;
 	color: #771144;
 }
 
-#list-inline i:hover{
+
+.list-inline i:hover{
 	color: #9d8f8f;
 }
 
